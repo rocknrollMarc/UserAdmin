@@ -1,0 +1,10 @@
+package controllers
+
+import play.api.mvc.Controller
+
+object Users extends Controller {
+
+  val users: scala.collection.mutable.Map[String, User] = new HashMap
+
+
+}
